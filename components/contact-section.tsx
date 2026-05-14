@@ -22,8 +22,8 @@ const contactInfo = [
   {
     icon: Globe,
     label: "Website",
-    value: "www.dezmakgroup.co.za",
-    href: "https://www.dezmakgroup.co.za",
+    value: "dezmakgroup.vercel.app",
+    href: "dezmakgroup.vercel.app",
   },
 ]
 
