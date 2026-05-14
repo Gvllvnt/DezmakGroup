@@ -11,11 +11,21 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'DezMak Group | Mining Solutions & Services Provider',
   description: 'Proudly South African mining solutions company delivering fast, reliable, and affordable services across the full mining value chain — from exploration to closure.',
+  icons:{
+    icon:"/favicon.png",
+  },
   keywords: ['mining', 'South Africa', 'mining services', 'exploration', 'geology', 'mining operations', 'Sandton', 'Johannesburg'],
   authors: [{ name: 'DezMak Group' }],
   openGraph: {
     title: 'DezMak Group | Mining Solutions & Services Provider',
     description: 'Proudly South African mining solutions company delivering fast, reliable, and affordable services across the full mining value chain.',
+    images: [
+      {
+        url: "/og-image.png",
+        width:1200,
+        height:630,
+      }
+    ],
     type: 'website',
   },
 }

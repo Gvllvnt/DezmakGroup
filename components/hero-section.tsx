@@ -10,13 +10,13 @@ export function HeroSection() {
         <div className="grid items-center gap-12 md:grid-cols-2">
           {/* Left Column */}
           <div className="space-y-6">
-            <div className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/20 px-4 py-1.5 text-sm font-semibold text-primary backdrop-blur-sm">
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/20 px-4 py-1.5 text-sm font-semibold text-[#000000] backdrop-blur-sm">
               <HardHat className="h-4 w-4" />
               Proudly South African
             </div>
 
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-balance md:text-5xl lg:text-6xl">
-              Fast. <span className="text-primary">Reliable.</span> Safe. Local.
+              Fast. <span className="text-[#000000]">Reliable.</span> Safe. Local.
             </h1>
 
             <p className="max-w-xl text-lg leading-relaxed text-gray-200 md:text-xl">
